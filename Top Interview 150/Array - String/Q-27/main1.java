@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class main {
+public class main1 {
   public static void main(String[] args) {
     int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2, 2, 4 };
     int val = 2;
@@ -20,4 +20,3 @@ public class main {
     return valPosition;
   }
 }
-// nums [0, 1, 4, 4, 3, 0, 4, 2, 2, 4]
