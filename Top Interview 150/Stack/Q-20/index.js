@@ -41,4 +41,4 @@ const isValid2 = (str) => {
   return bracketsStack.isEmpty();
 };
 
-console.log(isValid("()"));
+console.log(isValid("()[([])]{}]"));
