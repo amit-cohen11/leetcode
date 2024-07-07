@@ -18,5 +18,6 @@
     "titleBar.inactiveBackground": "#fcb7e699",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#fcb7e6"
+  "peacock.color": "#fcb7e6",
+  "dotnet.defaultSolution": "leetcode.sln"
 }
