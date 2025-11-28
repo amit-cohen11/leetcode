@@ -10,30 +10,6 @@ def removeDuplicates(nums: List[int]) -> int:
   
   return len(nums)
 
-  # is_changed = False
-  # i, j = 0 , 1
-  # while(j < len(nums)):
-  #   if(nums[i] == nums[j]):
-  #     nums[j] = "_"
-  #     is_changed = True
-  #   else: 
-  #     i = j
-  #   j += 1
-
-  # if (not is_changed):
-  #   return len(nums)
-
-  # count, i, j = 1, 1, 2
-  # while(j < len(nums)):
-  #   if(nums[j] == "_"):
-  #     j += 1
-  #   else:
-  #     nums[i] = nums[j]
-  #     nums[j] = "_"
-  #     count += 1
-  #     i += 1
-
-  # return count
 
 if (__name__ == "__main__"):
   print(removeDuplicates(nums = [1,2]))
